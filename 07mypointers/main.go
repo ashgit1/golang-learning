@@ -12,9 +12,9 @@ func main() {
 	myNumber := 23
 	var ptr2 = &myNumber
 	fmt.Println("Value of the pointer is ", ptr2)
-	fmt.Println("Actual Value of the pointer is ", *ptr2)
+	fmt.Println("Actual Value of the pointer: ", *ptr2)
 
 	*ptr2 = *ptr2 + 2
-	fmt.Println("New Value of the pointer is ", myNumber)
+	fmt.Println("New Value of the pointer: ", myNumber)
 
 }
